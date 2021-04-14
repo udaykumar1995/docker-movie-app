@@ -19,7 +19,6 @@ import com.company.movie.service.AuthService;
 
 @RestController
 @RequestMapping(value = "auth")
-@CrossOrigin(origins = {"http://movieapplication.s3-website.us-east-2.amazonaws.com","http://ec2-18-219-121-39.us-east-2.compute.amazonaws.com:4200", "http://localhost:4200", "http://localhost:3000"})
 public class AuthController {
 
 	@Autowired
