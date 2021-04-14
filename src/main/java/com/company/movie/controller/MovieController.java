@@ -21,7 +21,6 @@ import com.company.movie.service.MovieService;
 
 @RestController
 @RequestMapping(value = "movie")
-@CrossOrigin(origins = {"http://ec2-18-219-121-39.us-east-2.compute.amazonaws.com:4200", "http://movieapplication.s3-website.us-east-2.amazonaws.com", "http://localhost:4200", "http://localhost:3000"})
 public class MovieController {
 
 	@Autowired
